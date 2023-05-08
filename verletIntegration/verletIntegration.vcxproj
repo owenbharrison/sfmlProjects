@@ -24,6 +24,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\geom\aabb.h" />
+    <ClInclude Include="src\geom\quadtree.h" />
     <ClInclude Include="src\io\stopwatch.h" />
     <ClInclude Include="src\physics\constraint.h" />
     <ClInclude Include="src\physics\fx.h" />

@@ -34,6 +34,7 @@
     <None Include="roundabout.nav" />
     <None Include="speer25.nav" />
     <None Include="town.nav" />
+    <None Include="designed.nav" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="cloverleaf.png">
@@ -52,6 +53,12 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="town.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="asphalt.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="plains.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

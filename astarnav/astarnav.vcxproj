@@ -140,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="cloverleaf.nav" />
+    <None Include="designed.nav" />
     <None Include="georgebrettsuper.nav" />
     <None Include="gta3.nav" />
     <None Include="roundabout.nav" />
@@ -147,9 +148,11 @@
     <None Include="town.nav" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="asphalt.png" />
     <Image Include="cloverleaf.png" />
     <Image Include="georgebrettsuper.png" />
     <Image Include="gta3.png" />
+    <Image Include="plains.png" />
     <Image Include="roundabout.png" />
     <Image Include="speer25.png" />
     <Image Include="town.png" />

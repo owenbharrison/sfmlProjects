@@ -41,5 +41,8 @@
     <ClInclude Include="src\vector\float2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\geom\quadtree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

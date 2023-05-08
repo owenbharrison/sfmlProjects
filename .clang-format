@@ -1,0 +1,15 @@
+# Format Style Options - Created with Clang Power Tools
+---
+BasedOnStyle: Google
+AlignAfterOpenBracket: DontAlign
+AlignOperands: DontAlign
+BreakBeforeBinaryOperators: NonAssignment
+ColumnLimit: 90
+ContinuationIndentWidth: 2
+IncludeBlocks: Preserve
+ReflowComments: false
+SpaceBeforeAssignmentOperators: false
+SpaceBeforeRangeBasedForLoopColon: false
+SpacesBeforeTrailingComments: 1
+UseTab: ForContinuationAndIndentation
+...

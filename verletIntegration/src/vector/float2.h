@@ -2,7 +2,7 @@
 
 #pragma once
 struct float2 {
-	float x=0, y=0;
+	float x = 0, y = 0;
 
 	float2();
 

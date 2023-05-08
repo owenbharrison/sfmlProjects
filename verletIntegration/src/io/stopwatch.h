@@ -1,38 +1,37 @@
 #include <chrono>
-using namespace std::chrono;
 
 #pragma once
 class stopwatch {
-	public:
-	steady_clock::time_point startTime, endTime;
+public:
+	std::chrono::steady_clock::time_point startTime, endTime;
 
-	stopwatch(){}
+	stopwatch() {}
 
-	steady_clock::time_point getTime() {
-		return high_resolution_clock::now();
+	std::chrono::steady_clock::time_point getTime() {
+		return std::chrono::high_resolution_clock::now();
 	}
 
 	void start() {
-		this->startTime=this->getTime();
+		this->startTime = this->getTime();
 	}
 
 	void stop() {
-		this->endTime=this->getTime();
+		this->endTime = this->getTime();
 	}
 
 	int getNanoseconds() {
-		return duration_cast<nanoseconds>(endTime-startTime).count();
+		return std::chrono::duration_cast<std::chrono::nanoseconds>(endTime - startTime).count();
 	}
 
 	int getMicroseconds() {
-		return duration_cast<microseconds>(endTime-startTime).count();
+		return std::chrono::duration_cast<std::chrono::microseconds>(endTime - startTime).count();
 	}
 
 	int getMilliseconds() {
-		return duration_cast<milliseconds>(endTime-startTime).count();
+		return std::chrono::duration_cast<std::chrono::milliseconds>(endTime - startTime).count();
 	}
 
 	int getSeconds() {
-		return duration_cast<seconds>(endTime-startTime).count();
+		return std::chrono::duration_cast<std::chrono::seconds>(endTime - startTime).count();
 	}
 };
